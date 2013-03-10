@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit colors="true" bootstrap="test.php">
+	<filter>
+		<blacklist>
+			<directory suffix=".php">vendor/</directory>
+		</blacklist>
+	</filter>
 	<testsuites>
 		<testsuite name="My App Tests">
 			<directory suffix="Test.php">tests/</directory>
