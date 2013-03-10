@@ -1,0 +1,8 @@
+{
+	"name" : "My App with TDD",
+	"autoload" : {
+		"psr-0": {
+			"App": "src/"
+		}
+	}
+}
