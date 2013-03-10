@@ -63,4 +63,9 @@ class CalculatorTest extends PHPUnit_Framework_Testcase
 			[ 1112, 12, 1100 ]
 		];
 	}
+
+	public function testShouldMultiplyCorrectly()
+	{
+		$this->assertEquals( 43, $this->calc->mult( 2, 21.5 ) );
+	}
 }

@@ -16,4 +16,9 @@ class Calculator
 	{
 		return $firstNumber - $secondNumber;
 	}
+
+	public function mult($firstNumber, $secondNumber)
+	{
+		return $firstNumber * $secondNumber;
+	}
 }
